@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head> 
+    <title>LaptopGeeks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="addtocartfunction.js"></script>
+</head>
+<body>
+    <section id="navbarcont">
+        <a href="index.html"><img src="LaptopGeeks.png" class="logo" alt="" width="30%"></a>
+        <div class="searchbar">
+            <form>
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="what are you looking for?">
+                <a href="cart.html" ><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                <span id="num" class="cartnumber" >0</span> 
+            </form>
+        </div>
+        <div>
+            <ul id="navbar"> 
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+         </div>   
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="AppleProduct[4]1.png" width="100%" id="MainImg">                       <!-- BIG IMAGE -->
+        
+            <div class="small-img-group">                                                                                                                     <!-- SMALL IMAGE 1-->
+                <div class="small-img-col">
+                    <img src="AppleProduct[4]1.png" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">                                                                                                                   <!-- SMALL IMAGE 2-->
+                        <img src="AppleProduct[4]2.png" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-prodetails">
+            <p>Apple</p>
+            <h3>MacBook Pro 14-inch <br> (M2 Pro, 2023)</h3>
+            <div class="star">
+                <i class="fa fa-star fa-1x"></i>
+                <i class="fa fa-star fa-1x"></i>
+                <i class="fa fa-star fa-1x"></i>
+                <i class="fa fa-star fa-1x"></i>
+                <i class="fa fa-star fa-1x"></i>
+            </div>
+            <h1>$1,899</h1>
+            <h2>$1,799</h2>
+            <select>
+                <option id="select-color">Select Color</option>
+                <option id="option-1">Gold</option>
+                <option id="option-2">Silver</option>
+            </select>
+            <input id="value" class="value" type="number" value="1">
+            <span id="plus" class="addcart"><button>Add To Cart</button></span>
+            <h4>Product Details</h4>
+            <span>Elevate your productivity with the MacBook Pro 14-inch featuring the M2 Pro chip. Its 14-inch 2880x1800 Retina display provides stunning visuals.</span>
+                <h4>Specifications:</h4>
+            <span>
+                <b>Monitor:</b> 14-inch 2880x1800 Retina Display <br>
+                <b>Processor Type & Model:</b> Apple M2 Pro<br>
+                <b>GPU:</b> Apple M2 Pro GPU <br>
+                <b>RAM:</b> 16GB DDR5 RAM <br>
+                <b>Storage:</b> 512GB SSD <br>
+                <b>OS:</b> macOS Monterey <br>            
+             </span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Related Products</h2>
+        <button>View More</button>
+        <div class="pro-container">                                                                                                 <!-- 5 PRODUCTS-->
+            <div class="pro" onclick="window.location.href='singleproduct6.html'">
+                <img src="AppleProduct[6]1.png">                                <!-- APPLE PRODUCT 6-->
+                <div class="des">
+                    <h4>MacBook Air 13-inch <BR>(M1, 2020)</h4>
+                    <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                    </div>
+                    <p>$1,099</p>
+                    <h1>$999</h1>
+                </div>
+                <div class="sale">
+                    <h1>-30%</h1>
+                </div>
+            </div>
+            <div class="pro" onclick="window.location.href='singleproduct7.html'">
+                <img src="AppleProduct[7]1.png">                                   <!-- APPLE PRODUCT 7-->
+                <div class="des">
+                    <h4>MacBook Pro 13-inch <BR> (M2 Chip 8‑core)</h4>
+                    <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                    </div>
+                    <p>$1,499</p>
+                    <h1>$1,399</h1>
+                </div>
+                <div class="sale">
+                    <h1>-30%</h1>
+                </div>
+            </div>
+            <div class="pro"  onclick="window.location.href='singleproduct8.html'">
+                <img src="AppleProduct[8]1.png">                                   <!-- APPLE PRODUCT 8-->
+                <div class="des">
+                    <h4>MacBook Pro <BR> (M1 Max Chip)</h4>
+                    <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                    </div>
+                    <p>$3,399</p>
+                    <h1>$3,299</h1>
+                </div>
+                <div class="sale">
+                    <h1>-30%</h1>
+                </div>
+            </div>
+            <div class="pro"  onclick="window.location.href='singleproduct9.html'">
+                <img src="AppleProduct[9]1.png">                                   <!-- APPLE PRODUCT 9-->
+                <div class="des">
+                    <h4>MacBook Pro <BR> (Touch Bar 16)</h4>
+                    <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                    </div>
+                    <p>$2,499</p>
+                    <h1>$2,399</h1>
+                </div>
+                <div class="sale">
+                    <h1>-30%</h1>
+                </div>
+            </div>
+            <div class="pro"  onclick="window.location.href='singleproduct10.html'">
+                <img src="AppleProduct[10]1.png">                                   <!-- APPLE PRODUCT 10-->
+                <div class="des">
+                    <h4>Macbook Pro 13-inch <BR> (M1 chip)</h4>
+                    <div class="star">
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                        <i class="fa fa-star fa-1x"></i>
+                    </div>
+                    <p>$1,299</p>
+                    <h1>$1,199</h1>
+                </div>
+                <div class="sale">
+                    <h1>-30%</h1>
+                </div>
+            </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="LaptopGeeksFooter.png" width="60%">
+            <p><br>Our purpose is to make your online purchase <br>
+                easy, fast & reliable.Through the selection of<br>
+                our best laptops on the market</p>
+        </div>
+
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>  Philippines, Dumaguete City</p>
+            <p><strong>Phone:</strong> 091238538340 / 09123837429</p>
+            <p><strong>Email:</strong> laptopgeeks@gmail.com</p>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="aboutus.html">About Us</a>
+            <a href="terms&condition.html">Terms & Condition</a>
+            <a href="DeliveryInformation.html">Delivery Information</a>
+        </div>
+
+        <div class="col">
+            <h4>Follow Us</h4>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+            <a href="https://instagram.com/" target="_blank">Instagram</a>
+        </div>
+
+        <div class="col">
+            <h4>Secure Payment</h4>
+            <div class="row">
+                <img src="Pay.png">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>@2023. LaptopGeeks - Laptop Ecommerce Website</p>
+        </div>
+    </footer>
+
+    <script src = "addtocart.js"> </script>
+</body>
+
+</html>

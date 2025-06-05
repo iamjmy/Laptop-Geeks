@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head> 
+    <title>LaptopGeeks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="navbarcont">
+        <a href="index.html"><img src="LaptopGeeks.png" class="logo" alt="" width="30%"></a>
+        <div class="searchbar">
+            <form>
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="what are you looking for?">
+                <a href="cart.html" ><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                <span id="num" class="cartnumber" >0</span> 
+            </form>
+        </div>
+        <div>
+            <ul id="navbar"> 
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+         </div>   
+    </section>
+
+    <section id="page-header">
+            <h6>Browse Now!</h6>
+            <p>Most Top Selling & Best Laptops on the Market!</p>
+    </section>
+
+    <section id="product1" class="section-p1">
+            <div class="heading">
+                <h2>Apple Products</h2>
+                
+            </div>
+            <div class="Dropdown">
+                <select class="pageDropdown" id="pageDropdown" onchange="navigate()">
+                    <option>Select a Brand</option>
+                    <option value="shop.html">Default</option>
+                    <option value="appleproducts.html">Apple</option>
+                    <option value="acerproducts.html">Acer</option>
+                    <option value="lenovoproducts.html">Lenovo</option>
+                </select>
+            </div>
+            <div class="pro-container">
+                <div class="pro" onclick="window.location.href='singleproduct.html'">
+                    <img src="AppleProduct[1]1.png">         <!-- APPLE PRODUCT 1-->
+                    <div class="des">
+                        <h4>MacBook Air 13-inch<BR> (M2, 8-Core CPU 8-Core)</h4>
+                        <div class="star">
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                        </div>
+                        <p>$1,299</p>
+                        <h1>$1,199</h1>
+                    </div>
+                    <div class="sale">
+                        <h1>-30%</h1>
+                    </div>
+                </div>
+                <div class="pro" onclick="window.location.href='singleproduct2.html'">
+                    <img src="AppleProduct[2]1.png">         <!-- APPLE PRODUCT 2-->
+                    <div class="des">
+                        <h4>MacBook Air 13-inch <br> (M2, 8-Core CPU 10-Core)</h4>
+                        <div class="star">
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                        </div>
+                        <p>$1,599</p>
+                        <h1>$1,499</h1>
+                    </div>
+                    <div class="sale">
+                        <h1>-30%</h1>
+                    </div>
+                </div>
+                <div class="pro" onclick="window.location.href='singleproduct3.html'">
+                    <img src="AppleProduct[3]1.png">                                 <!-- APPLE PRODUCT 3-->
+                    <div class="des">
+                        <h4>MacBook Air 15-inch <BR> (M2)</h4>
+                        <div class="star">
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                        </div>
+                        <p>$1,399</p>
+                        <h1>$1,299</h1>
+                    </div>
+                    <div class="sale3">
+                        <h1>-30%</h1>
+                    </div>
+                </div>
+                <div class="pro" onclick="window.location.href='singleproduct4.html'">
+                    <img src="AppleProduct[4]1.png">         <!-- APPLE PRODUCT 4-->
+                    <div class="des">
+                        <h4>MacBook Pro 14-inch <BR> (M2 Pro, 2023)</h4>
+                        <div class="star">
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                        </div>
+                        <p>$1,899</p>
+                        <h1>$1,799</h1>
+                    </div>
+                    <div class="sale">
+                        <h1>-30%</h1>
+                    </div>
+                </div>
+                <div class="pro" onclick="window.location.href='singleproduct5.html'">
+                    <img src="AppleProduct[5]1.png">                                  <!-- APPLE PRODUCT 5-->
+                    <div class="des">
+                        <h4>MacBook Pro 16-inch <br> (M2 Pro, 2023)</h4>
+                        <div class="star">
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                        </div>
+                        <p>$2,599</p>
+                        <h1>$2,499</h1>
+                    </div>
+                    <div class="sale">
+                        <h1>-30%</h1>
+                    </div>
+                </div>
+                <div class="pro" onclick="window.location.href='singleproduct6.html'">
+                    <img src="AppleProduct[6]1.png">                                <!-- APPLE PRODUCT 6-->
+                    <div class="des">
+                        <h4>MacBook Air 13-inch <BR>(M1, 2020)</h4>
+                        <div class="star">
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                        </div>
+                        <p>$1,099</p>
+                        <h1>$999</h1>
+                    </div>
+                    <div class="sale">
+                        <h1>-30%</h1>
+                    </div>
+                </div>
+                <div class="pro" onclick="window.location.href='singleproduct7.html'">
+                    <img src="AppleProduct[7]1.png">                                   <!-- APPLE PRODUCT 7-->
+                    <div class="des">
+                        <h4>MacBook Pro 13-inch <BR> (M2 Chip 8‑core)</h4>
+                        <div class="star">
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                        </div>
+                        <p>$1,499</p>
+                        <h1>$1,399</h1>
+                    </div>
+                    <div class="sale">
+                        <h1>-30%</h1>
+                    </div>
+                </div>
+                <div class="pro"  onclick="window.location.href='singleproduct8.html'">
+                    <img src="AppleProduct[8]1.png">                                   <!-- APPLE PRODUCT 8-->
+                    <div class="des">
+                        <h4>MacBook Pro <BR> (M1 Max Chip)</h4>
+                        <div class="star">
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                        </div>
+                        <p>$3,399</p>
+                        <h1>$3,299</h1>
+                    </div>
+                    <div class="sale">
+                        <h1>-30%</h1>
+                    </div>
+                </div>
+                <div class="pro"  onclick="window.location.href='singleproduct9.html'">
+                    <img src="AppleProduct[9]1.png">                                   <!-- APPLE PRODUCT 9-->
+                    <div class="des">
+                        <h4>MacBook Pro <BR> (Touch Bar 16)</h4>
+                        <div class="star">
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                        </div>
+                        <p>$2,499</p>
+                        <h1>$2,399</h1>
+                    </div>
+                    <div class="sale">
+                        <h1>-30%</h1>
+                    </div>
+                </div>
+                <div class="pro"  onclick="window.location.href='singleproduct10.html'">
+                    <img src="AppleProduct[10]1.png">                                   <!-- APPLE PRODUCT 10-->
+                    <div class="des">
+                        <h4>Macbook Pro 13-inch <BR> (M1 chip)</h4>
+                        <div class="star">
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                            <i class="fa fa-star fa-1x"></i>
+                        </div>
+                        <p>$1,299</p>
+                        <h1>$1,199</h1>
+                    </div>
+                    <div class="sale">
+                        <h1>-30%</h1>
+                    </div>
+                </div>
+    </section>
+
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i>&#8594</i></a>
+    </section>
+    
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="LaptopGeeksFooter.png" width="60%">
+            <p><br>Our purpose is to make your online purchase <br>
+                easy, fast & reliable.Through the selection of<br>
+                our best laptops on the market</p>
+        </div>
+
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>  Philippines, Dumaguete City</p>
+            <p><strong>Phone:</strong> 091238538340 / 09123837429</p>
+            <p><strong>Email:</strong> laptopgeeks@gmail.com</p>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="aboutus.html">About Us</a>
+            <a href="terms&condition.html">Terms & Condition</a>
+            <a href="DeliveryInformation.html">Delivery Information</a>
+        </div>
+
+        <div class="col">
+            <h4>Follow Us</h4>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+            <a href="https://instagram.com/" target="_blank">Instagram</a>
+        </div>
+
+        <div class="col">
+            <h4>Secure Payment</h4>
+            <div class="row">
+                <img src="Pay.png">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>@2023. LaptopGeeks - Laptop Ecommerce Website</p>
+        </div>
+    </footer>
+
+    <script>
+        function navigate() {
+            var selectedPage = document.getElementById("pageDropdown").value;
+            if (selectedPage) {
+                window.location.href = selectedPage;
+            }
+        }
+    </script>
+
+</body>
+
+
+</html>
